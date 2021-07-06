@@ -18,7 +18,7 @@ config.read('config.ini')
 line_bot_api = LineBotApi(config.get('line-bot', 'channel_access_token'))
 handler = WebhookHandler(config.get('line-bot', 'channel_secret'))
 
-# 測試有沒有架站成功
+# 測試有沒有架站成功  
 # @app.route("/")
 # def helloWorld():
 #     return 'hello world'
